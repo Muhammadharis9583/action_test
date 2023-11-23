@@ -22,7 +22,7 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t muhammmadharis8790/action_test:latest .
+        docker build -t muhammadharis8790/action_test:latest .
         docker push muhammadharis8790/action_test:latest
 
 
